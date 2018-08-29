@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="August Demo" time="66" tests="1" failures="2" errors="0">
+   <testsuite name="August Demo" tests="1" failures="2" errors="0" time="66" timestamp="2018-08-29 12:08:36" hostname="greeshmaj - AW168.HQ.MVSINC.COM" id="Test Suites/August Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180829_120834"/>
+         <property name="logFiles" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180829_120834\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180829_120834\\1535558945149.png, C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180829_120834\\1535558973115.png"/>
+         <property name="hostName" value="greeshmaj - AW168.HQ.MVSINC.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.0.1.65"/>
+         <property name="sessionId" value="ee74ba694f1653be4ac5307deb187684"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/All Pages in PR" classname="Test Cases/All Pages in PR" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)"/>
+         <system-out><![CDATA[2018-08-29 12:08:36 - [TEST_CASE][FAILED] - Test Cases/All Pages in PR: Test Cases/All Pages in PR FAILED because (of) Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)
+
+2018-08-29 12:08:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-29 12:08:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-29 12:08:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-29 12:08:42 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-29 12:08:42 - [TEST_STEP][PASSED] - setText: Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-29 12:08:42 - [MESSAGE][PASSED] - Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-29 12:08:42 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-29 12:08:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-29 12:08:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-29 12:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-29 12:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-08-29 12:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-08-29 12:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-08-29 12:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-08-29 12:08:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)
+
+2018-08-29 12:09:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)
+[[ATTACHMENT|C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180829_120834\\1535558945149.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-29 12:08:36 - [TEST_CASE][FAILED] - Test Cases/All Pages in PR: Test Cases/All Pages in PR FAILED because (of) Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Run Payroll" classname="Test Cases/Run Payroll" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)"/>
+         <system-out><![CDATA[2018-08-29 12:09:07 - [TEST_CASE][FAILED] - Test Cases/Run Payroll: Test Cases/Run Payroll FAILED because (of) Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)
+
+2018-08-29 12:09:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-29 12:09:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-29 12:09:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-29 12:09:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-29 12:09:11 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-29 12:09:11 - [TEST_STEP][PASSED] - setText: Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-29 12:09:11 - [MESSAGE][PASSED] - Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-29 12:09:11 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-29 12:09:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-29 12:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-29 12:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-29 12:09:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-08-29 12:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-08-29 12:09:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-08-29 12:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-08-29 12:09:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)
+
+2018-08-29 12:09:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)
+[[ATTACHMENT|C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180829_120834\\1535558973115.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-29 12:09:07 - [TEST_CASE][FAILED] - Test Cases/Run Payroll: Test Cases/Run Payroll FAILED because (of) Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Loging into QA" classname="Test Cases/Loging into QA" status="PASSED">
+         <system-out><![CDATA[2018-08-29 12:09:35 - [TEST_CASE][PASSED] - Test Cases/Loging into QA: Test Cases/Loging into QA
+
+2018-08-29 12:09:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-29 12:09:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-29 12:09:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-29 12:09:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-29 12:09:39 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-29 12:09:39 - [TEST_STEP][PASSED] - setText: Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-29 12:09:39 - [MESSAGE][PASSED] - Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-29 12:09:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-29 12:09:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-29 12:09:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-29 12:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-29 12:09:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-29 12:09:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-29 12:08:36 - [TEST_SUITE][FAILED] - August Demo: Test Cases/All Pages in PR FAILED because (of) Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-29 12:08:36 - [TEST_SUITE][FAILED] - August Demo: Test Cases/All Pages in PR FAILED because (of) Unable to click on object 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100' located by 'By.xpath: //div[@id = 'select2-result-label-9' and (text() = 'QATesting [QATesting]  - 10/02/2018' or . = 'QATesting [QATesting]  - 10/02/2018')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
