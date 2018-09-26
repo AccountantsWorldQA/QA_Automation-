@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_238.80</name>
+   <tag></tag>
+   <elementGuidId>4cf91198-5ed2-435a-9b7b-a6e867b38d5a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>238.80</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageContent&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/table[@class=&quot;table table-striped table-grid table-condensed&quot;]/tbody[1]/tr[1]/td[@class=&quot;right&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -31,11 +31,11 @@ WebUI.click(findTestObject('Page_Enter verification code - Acco/Submit code butt
 
 WebUI.click(findTestObject('Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief'))
 
-WebUI.click(findTestObject('Page_Select Client - Payroll Relief/PR_Enter client code or name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Select Client - Payroll Relief/span_Enter client code or name'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100'))
+WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt-2'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(6)
 
 WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/Contact')
 

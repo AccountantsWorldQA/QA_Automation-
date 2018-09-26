@@ -18,14 +18,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/Employer/Contact</value>
+      <value>/Employee</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Employer Setup</value>
+      <value>Setup</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

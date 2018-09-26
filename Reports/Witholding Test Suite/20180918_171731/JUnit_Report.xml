@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Witholding Test Suite" time="68" tests="0" failures="1" errors="0">
+   <testsuite name="Witholding Test Suite" tests="0" failures="1" errors="0" time="68" timestamp="2018-09-18 17:17:33" hostname="greeshmaj - AW168.HQ.MVSINC.COM" id="Test Suites/Witholding Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180918_171731"/>
+         <property name="logFiles" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180918_171731\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180918_171731\\1537305502648.png, C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180918_171731\\1537305519466.png"/>
+         <property name="hostName" value="greeshmaj - AW168.HQ.MVSINC.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.0.1.65"/>
+         <property name="sessionId" value="9463554fad2dc6ec8200ee12926fdb0b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Withholding" classname="Test Cases/Withholding" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)"/>
+         <system-out><![CDATA[2018-09-18 17:17:33 - [TEST_CASE][FAILED] - Test Cases/Withholding: Test Cases/Withholding FAILED because (of) Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)
+
+2018-09-18 17:17:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 17:17:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 17:17:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-09-18 17:17:38 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-09-18 17:17:38 - [TEST_STEP][PASSED] - setText: Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-09-18 17:17:39 - [MESSAGE][PASSED] - Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-09-18 17:17:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-09-18 17:17:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-09-18 17:17:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-09-18 17:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-09-18 17:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-09-18 17:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-09-18 17:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-09-18 17:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-09-18 17:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt' is clicked on
+
+2018-09-18 17:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt' is clicked on
+
+2018-09-18 17:17:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-18 17:17:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-18 17:17:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-09-18 17:17:48 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-09-18 17:17:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1567712' are selected in object 'Object Repository/Page_EmployeeContractor Setup - Pay/select_Jessie (1)'  using regular expression
+
+2018-09-18 17:17:49 - [MESSAGE][PASSED] - All options with value '1567712' are selected in object 'Object Repository/Page_EmployeeContractor Setup - Pay/select_Jessie (1)'  using regular expression
+
+2018-09-18 17:17:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EmployeeContractor Setup - Pay/a_Taxes (1)' is clicked on
+
+2018-09-18 17:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EmployeeContractor Setup - Pay/a_Taxes (1)' is clicked on
+
+2018-09-18 17:17:49 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-18 17:17:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-18 17:17:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/ListEntry' successfully
+
+2018-09-18 17:18:05 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/ListEntry' successfully
+
+2018-09-18 17:18:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Payroll Entry - Payroll Relief/button_Calculate (1)' is clicked on
+
+2018-09-18 17:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payroll Entry - Payroll Relief/button_Calculate (1)' is clicked on
+
+2018-09-18 17:18:05 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)
+
+2018-09-18 17:18:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)
+[[ATTACHMENT|C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180918_171731\\1537305502648.png]]
+
+2018-09-18 17:18:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Payroll Review - Payroll Relie/Select Jessie - Details' is clicked on
+
+2018-09-18 17:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payroll Review - Payroll Relie/Select Jessie - Details' is clicked on
+
+2018-09-18 17:18:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Payroll Modify - Payroll Relie/span_238.80' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Modify - Payroll Relie/span_238.80' located by 'By.xpath: //span[(text() = '238.80' or . = '238.80')]' not found)
+
+2018-09-18 17:18:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Payroll Modify - Payroll Relie/span_238.80' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Modify - Payroll Relie/span_238.80' located by 'By.xpath: //span[(text() = '238.80' or . = '238.80')]' not found)
+[[ATTACHMENT|C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180918_171731\\1537305519466.png]]
+
+2018-09-18 17:18:39 - [TEST_STEP][PASSED] - verifyGreaterThan: Actual number '523.18' is greater than expected number '500'
+
+2018-09-18 17:18:39 - [MESSAGE][PASSED] - Actual number '523.18' is greater than expected number '500']]></system-out>
+         <system-err><![CDATA[2018-09-18 17:17:33 - [TEST_CASE][FAILED] - Test Cases/Withholding: Test Cases/Withholding FAILED because (of) Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 17:17:33 - [TEST_SUITE][FAILED] - Witholding Test Suite: Test Cases/Withholding FAILED because (of) Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-09-18 17:17:33 - [TEST_SUITE][FAILED] - Witholding Test Suite: Test Cases/Withholding FAILED because (of) Unable to click on object 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Payroll Entry - Payroll Relief/a_Details' located by 'By.xpath: //a[@href = '/Payroll/Review' and (text() = 'Details' or . = 'Details')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

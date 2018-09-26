@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Page_Welcome Greeshma Johnson - Acc/span_Payroll Rel
 
 WebUI.click(findTestObject('Page_Select Client - Payroll Relief/PR_Enter client code or name'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_QATesting QATesting  - 100'))
+WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_SZ Organic Farm 943 sz943'))
 
 WebUiBuiltInKeywords.delay(5)
 

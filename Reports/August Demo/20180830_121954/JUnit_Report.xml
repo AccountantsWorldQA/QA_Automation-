@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="August Demo" time="80" tests="1" failures="0" errors="0">
+   <testsuite name="August Demo" tests="1" failures="0" errors="0" time="80" timestamp="2018-08-30 12:19:56" hostname="greeshmaj - AW168.HQ.MVSINC.COM" id="Test Suites/August Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180830_121954"/>
+         <property name="logFiles" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\August Demo\\20180830_121954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="greeshmaj - AW168.HQ.MVSINC.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.0.1.65"/>
+         <property name="sessionId" value="89b3610db8051273656a8ee969e8ad69"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/All Pages in PR" classname="Test Cases/All Pages in PR" status="PASSED">
+         <system-out><![CDATA[2018-08-30 12:19:56 - [TEST_CASE][PASSED] - Test Cases/All Pages in PR: Test Cases/All Pages in PR
+
+2018-08-30 12:19:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-30 12:20:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-30 12:20:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-30 12:20:01 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-08-30 12:20:01 - [TEST_STEP][PASSED] - setText: Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-30 12:20:02 - [MESSAGE][PASSED] - Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-08-30 12:20:02 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-30 12:20:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-08-30 12:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-30 12:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-08-30 12:20:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-08-30 12:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief' is clicked on
+
+2018-08-30 12:20:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-08-30 12:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/PR_Enter client code or name' is clicked on
+
+2018-08-30 12:20:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt' is clicked on
+
+2018-08-30 12:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt' is clicked on
+
+2018-08-30 12:20:05 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-08-30 12:20:11 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-08-30 12:20:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/Contact' successfully
+
+2018-08-30 12:20:12 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/Contact' successfully
+
+2018-08-30 12:20:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/TaxInfo' successfully
+
+2018-08-30 12:20:12 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/TaxInfo' successfully
+
+2018-08-30 12:20:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/PayTypes' successfully
+
+2018-08-30 12:20:13 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/PayTypes' successfully
+
+2018-08-30 12:20:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/Deductions' successfully
+
+2018-08-30 12:20:13 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/Deductions' successfully
+
+2018-08-30 12:20:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/Preferences' successfully
+
+2018-08-30 12:20:14 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/Preferences' successfully
+
+2018-08-30 12:20:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/Accounts' successfully
+
+2018-08-30 12:20:15 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/Accounts' successfully
+
+2018-08-30 12:20:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EmployerDepartment/Department' successfully
+
+2018-08-30 12:20:16 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EmployerDepartment/Department' successfully
+
+2018-08-30 12:20:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EmployerJob' successfully
+
+2018-08-30 12:20:16 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EmployerJob' successfully
+
+2018-08-30 12:20:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/PTODefaults' successfully
+
+2018-08-30 12:20:17 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/PTODefaults' successfully
+
+2018-08-30 12:20:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/Permissions' successfully
+
+2018-08-30 12:20:17 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/Permissions' successfully
+
+2018-08-30 12:20:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employer/EmployerSetupList' successfully
+
+2018-08-30 12:20:17 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employer/EmployerSetupList' successfully
+
+2018-08-30 12:20:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-08-30 12:20:20 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-08-30 12:20:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee/List' successfully
+
+2018-08-30 12:20:21 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee/List' successfully
+
+2018-08-30 12:20:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee/Import' successfully
+
+2018-08-30 12:20:21 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee/Import' successfully
+
+2018-08-30 12:20:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee/Warnings' successfully
+
+2018-08-30 12:20:22 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee/Warnings' successfully
+
+2018-08-30 12:20:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/BankInfo' successfully
+
+2018-08-30 12:20:24 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/BankInfo' successfully
+
+2018-08-30 12:20:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/Form8655' successfully
+
+2018-08-30 12:20:25 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/Form8655' successfully
+
+2018-08-30 12:20:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/Taxes' successfully
+
+2018-08-30 12:20:25 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/Taxes' successfully
+
+2018-08-30 12:20:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/Preferences' successfully
+
+2018-08-30 12:20:26 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/Preferences' successfully
+
+2018-08-30 12:20:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/ACHTransactions' successfully
+
+2018-08-30 12:20:26 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/ACHTransactions' successfully
+
+2018-08-30 12:20:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/ACHDirectFile' successfully
+
+2018-08-30 12:20:27 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/ACHDirectFile' successfully
+
+2018-08-30 12:20:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EServices/Recall' successfully
+
+2018-08-30 12:20:27 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EServices/Recall' successfully
+
+2018-08-30 12:20:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/ListEntry' successfully
+
+2018-08-30 12:20:30 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/ListEntry' successfully
+
+2018-08-30 12:20:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/Summary' successfully
+
+2018-08-30 12:20:30 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/Summary' successfully
+
+2018-08-30 12:20:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/PrintChecks' successfully
+
+2018-08-30 12:20:31 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/PrintChecks' successfully
+
+2018-08-30 12:20:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/Allocation' successfully
+
+2018-08-30 12:20:31 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/Allocation' successfully
+
+2018-08-30 12:20:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/PayrollRegister/Register' successfully
+
+2018-08-30 12:20:32 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/PayrollRegister/Register' successfully
+
+2018-08-30 12:20:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/EmployeePaychecks' successfully
+
+2018-08-30 12:20:33 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/EmployeePaychecks' successfully
+
+2018-08-30 12:20:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Compliance/PendingPayments' successfully
+
+2018-08-30 12:20:35 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Compliance/PendingPayments' successfully
+
+2018-08-30 12:20:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Compliance/TaxForms' successfully
+
+2018-08-30 12:20:36 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Compliance/TaxForms' successfully
+
+2018-08-30 12:20:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Compliance/W2Forms' successfully
+
+2018-08-30 12:20:37 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Compliance/W2Forms' successfully
+
+2018-08-30 12:20:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Compliance/Form1099s' successfully
+
+2018-08-30 12:20:37 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Compliance/Form1099s' successfully
+
+2018-08-30 12:20:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Compliance/WageAdjustments' successfully
+
+2018-08-30 12:20:38 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Compliance/WageAdjustments' successfully
+
+2018-08-30 12:20:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Compliance/ComplianceOptions' successfully
+
+2018-08-30 12:20:38 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Compliance/ComplianceOptions' successfully
+
+2018-08-30 12:20:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/ComplianceACA/ACAEmployer?year=0' successfully
+
+2018-08-30 12:20:39 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/ComplianceACA/ACAEmployer?year=0' successfully
+
+2018-08-30 12:20:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Report/PayrollRegister' successfully
+
+2018-08-30 12:20:41 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Report/PayrollRegister' successfully
+
+2018-08-30 12:20:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Report/TaxLiabilitiesAndPayments' successfully
+
+2018-08-30 12:20:42 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Report/TaxLiabilitiesAndPayments' successfully
+
+2018-08-30 12:20:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Report/PayrollHistory' successfully
+
+2018-08-30 12:20:42 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Report/PayrollHistory' successfully
+
+2018-08-30 12:20:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Report/EmployeeList' successfully
+
+2018-08-30 12:20:43 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Report/EmployeeList' successfully
+
+2018-08-30 12:20:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Report/PayrollSet?reportSetNumber=0' successfully
+
+2018-08-30 12:20:43 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Report/PayrollSet?reportSetNumber=0' successfully
+
+2018-08-30 12:20:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Integration/SmartLink' successfully
+
+2018-08-30 12:20:46 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Integration/SmartLink' successfully
+
+2018-08-30 12:20:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Integration/ExportGLtoQBOnline' successfully
+
+2018-08-30 12:20:47 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Integration/ExportGLtoQBOnline' successfully
+
+2018-08-30 12:20:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Integration/ExportPayrollData' successfully
+
+2018-08-30 12:20:47 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Integration/ExportPayrollData' successfully
+
+2018-08-30 12:20:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Integration/SwipeClock' successfully
+
+2018-08-30 12:20:48 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Integration/SwipeClock' successfully
+
+2018-08-30 12:20:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/TrainingVideos' successfully
+
+2018-08-30 12:20:50 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/TrainingVideos' successfully
+
+2018-08-30 12:20:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/SupportDocs' successfully
+
+2018-08-30 12:20:50 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/SupportDocs' successfully
+
+2018-08-30 12:20:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EmploymentForms' successfully
+
+2018-08-30 12:20:51 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EmploymentForms' successfully
+
+2018-08-30 12:20:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/FormsandPubs' successfully
+
+2018-08-30 12:20:51 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/FormsandPubs' successfully
+
+2018-08-30 12:20:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/Links' successfully
+
+2018-08-30 12:20:52 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/Links' successfully
+
+2018-08-30 12:20:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/Tools' successfully
+
+2018-08-30 12:20:52 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/Tools' successfully
+
+2018-08-30 12:20:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/Webinars' successfully
+
+2018-08-30 12:20:53 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/Webinars' successfully
+
+2018-08-30 12:20:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/Marketing' successfully
+
+2018-08-30 12:20:53 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/Marketing' successfully
+
+2018-08-30 12:20:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Resources/FormsandPubs?samplereports=1' successfully
+
+2018-08-30 12:20:54 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Resources/FormsandPubs?samplereports=1' successfully
+
+2018-08-30 12:20:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:20:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:20:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/PayrollCenter' successfully
+
+2018-08-30 12:20:56 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/PayrollCenter' successfully
+
+2018-08-30 12:20:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/PayrollActivity/TodaysPayroll?finalized=True' successfully
+
+2018-08-30 12:20:57 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/PayrollActivity/TodaysPayroll?finalized=True' successfully
+
+2018-08-30 12:20:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/ManageCompliance/Exceptions?clientId=-1' successfully
+
+2018-08-30 12:20:58 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/ManageCompliance/Exceptions?clientId=-1' successfully
+
+2018-08-30 12:20:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/ACHApplication/GetACHApplicationDetails' successfully
+
+2018-08-30 12:20:58 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/ACHApplication/GetACHApplicationDetails' successfully
+
+2018-08-30 12:20:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/Manage8655' successfully
+
+2018-08-30 12:20:59 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/Manage8655' successfully
+
+2018-08-30 12:20:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/TaskManager/GetTaskDetails' successfully
+
+2018-08-30 12:20:59 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/TaskManager/GetTaskDetails' successfully
+
+2018-08-30 12:20:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:21:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:21:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/ClientManagement' successfully
+
+2018-08-30 12:21:02 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/ClientManagement' successfully
+
+2018-08-30 12:21:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/FirmOptions' successfully
+
+2018-08-30 12:21:02 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/FirmOptions' successfully
+
+2018-08-30 12:21:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/EmailsSent/GetEmailsSent' successfully
+
+2018-08-30 12:21:03 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/EmailsSent/GetEmailsSent' successfully
+
+2018-08-30 12:21:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/Announcements' successfully
+
+2018-08-30 12:21:03 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/Announcements' successfully
+
+2018-08-30 12:21:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/Announcements' successfully
+
+2018-08-30 12:21:04 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/Announcements' successfully
+
+2018-08-30 12:21:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Firm/ClientCharges' successfully
+
+2018-08-30 12:21:04 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Firm/ClientCharges' successfully
+
+2018-08-30 12:21:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Batch/Emailing' successfully
+
+2018-08-30 12:21:05 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Batch/Emailing' successfully
+
+2018-08-30 12:21:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:21:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:21:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Batch/Processing' successfully
+
+2018-08-30 12:21:07 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Batch/Processing' successfully
+
+2018-08-30 12:21:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Batch/ApprovePayrolls' successfully
+
+2018-08-30 12:21:08 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Batch/ApprovePayrolls' successfully
+
+2018-08-30 12:21:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Batch/Printing' successfully
+
+2018-08-30 12:21:08 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Batch/Printing' successfully
+
+2018-08-30 12:21:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Batch/ArchiveForms' successfully
+
+2018-08-30 12:21:09 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Batch/ArchiveForms' successfully
+
+2018-08-30 12:21:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Batch/ProcessW2s' successfully
+
+2018-08-30 12:21:09 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Batch/ProcessW2s' successfully
+
+2018-08-30 12:21:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-30 12:21:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-30 12:21:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Notes - Payroll Relief/Help Icon' is clicked on
+
+2018-08-30 12:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Notes - Payroll Relief/Help Icon' is clicked on
+
+2018-08-30 12:21:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Notes - Payroll Relief/Notes Icon' is clicked on
+
+2018-08-30 12:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Notes - Payroll Relief/Notes Icon' is clicked on
+
+2018-08-30 12:21:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Notes - Payroll Relief/Support Icon' is clicked on
+
+2018-08-30 12:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Notes - Payroll Relief/Support Icon' is clicked on
+
+2018-08-30 12:21:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-30 12:21:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-30 12:19:56 - [TEST_SUITE][PASSED] - August Demo: Test Cases/All Pages in PR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

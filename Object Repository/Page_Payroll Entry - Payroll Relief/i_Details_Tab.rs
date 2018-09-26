@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Details_Tab</name>
+   <tag></tag>
+   <elementGuidId>b1b9667a-eec8-4ce7-8f4b-8b12c262ab1a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-cogs</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageContent&quot;)/div[@class=&quot;row page-title&quot;]/div[@class=&quot;col-sm-9 col-md-10 button-area&quot;]/div[@class=&quot;btn-toolbar&quot;]/button[@class=&quot;btn btn-primary&quot;]/i[@class=&quot;icon-cogs&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

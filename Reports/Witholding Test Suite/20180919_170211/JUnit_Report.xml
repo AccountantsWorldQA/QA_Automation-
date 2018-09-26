@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Witholding Test Suite" time="56" tests="1" failures="0" errors="0">
+   <testsuite name="Witholding Test Suite" tests="1" failures="0" errors="0" time="56" timestamp="2018-09-19 17:02:13" hostname="greeshmaj - AW168.HQ.MVSINC.COM" id="Test Suites/Witholding Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180919_170211"/>
+         <property name="logFiles" value="C:\\Users\\greeshmaj.MVS_NT\\Katalon Studio\\2FactorLogin\\Reports\\Witholding Test Suite\\20180919_170211\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="greeshmaj - AW168.HQ.MVSINC.COM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.0.1.65"/>
+         <property name="sessionId" value="0d296db5cd44ec0d7e97ed25d3a1b5ed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Witholding 2" classname="Test Cases/Witholding 2" status="PASSED">
+         <system-out><![CDATA[2018-09-19 17:02:14 - [TEST_CASE][PASSED] - Test Cases/Witholding 2: Test Cases/Witholding 2
+
+2018-09-19 17:02:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-19 17:02:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-19 17:02:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-09-19 17:02:18 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.accountantsoffice.com/login?firmCode=aworldqa' successfully
+
+2018-09-19 17:02:18 - [TEST_STEP][PASSED] - setText: Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-09-19 17:02:19 - [MESSAGE][PASSED] - Text 'greeshmaj' is set on object 'Object Repository/Page_Log in - AccountantsOffice/input_UserName'
+
+2018-09-19 17:02:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-09-19 17:02:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - AccountantsOffice/input_Password'
+
+2018-09-19 17:02:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-09-19 17:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enter verification code - Acco/Submit code button -3' is clicked on
+
+2018-09-19 17:02:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/a_Payroll Relief' is clicked on
+
+2018-09-19 17:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Greeshma Johnson - Acc/a_Payroll Relief' is clicked on
+
+2018-09-19 17:02:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/span_Enter client code or name' is clicked on
+
+2018-09-19 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/span_Enter client code or name' is clicked on
+
+2018-09-19 17:02:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt' is clicked on
+
+2018-09-19 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt' is clicked on
+
+2018-09-19 17:02:22 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-19 17:02:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-19 17:02:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-09-19 17:02:33 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-09-19 17:02:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EmployeeContractor Setup - Pay/a_Taxes' is clicked on
+
+2018-09-19 17:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EmployeeContractor Setup - Pay/a_Taxes' is clicked on
+
+2018-09-19 17:02:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-19 17:02:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-19 17:02:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/Summary' successfully
+
+2018-09-19 17:02:39 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/Summary' successfully
+
+2018-09-19 17:02:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/Review' successfully
+
+2018-09-19 17:02:39 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/Review' successfully
+
+2018-09-19 17:02:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Payroll Review - Payroll Relie/span_CTWilson Jessie-1' is clicked on
+
+2018-09-19 17:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payroll Review - Payroll Relie/span_CTWilson Jessie-1' is clicked on
+
+2018-09-19 17:02:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-19 17:02:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-19 17:02:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-09-19 17:02:45 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Employee' successfully
+
+2018-09-19 17:02:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_EmployeeContractor Setup - Pay/a_Taxes' is clicked on
+
+2018-09-19 17:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EmployeeContractor Setup - Pay/a_Taxes' is clicked on
+
+2018-09-19 17:02:46 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-19 17:02:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-19 17:02:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/Summary' successfully
+
+2018-09-19 17:02:56 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/Summary' successfully
+
+2018-09-19 17:02:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-app.payrollrelief.com/Payroll/Review' successfully
+
+2018-09-19 17:02:57 - [MESSAGE][PASSED] - Navigate to 'https://qa-app.payrollrelief.com/Payroll/Review' successfully
+
+2018-09-19 17:02:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Payroll Review - Payroll Relie/span_CTWilson Jessie-1' is clicked on
+
+2018-09-19 17:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payroll Review - Payroll Relie/span_CTWilson Jessie-1' is clicked on
+
+2018-09-19 17:02:57 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-19 17:03:07 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-19 17:02:13 - [TEST_SUITE][PASSED] - Witholding Test Suite: Test Cases/Witholding 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

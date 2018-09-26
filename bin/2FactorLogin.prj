@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>2FactorLogin</name>
+   <tag></tag>
+   <UUID>8e2dbb32-c0ee-4382-b1a8-5828e7d14e4a</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
