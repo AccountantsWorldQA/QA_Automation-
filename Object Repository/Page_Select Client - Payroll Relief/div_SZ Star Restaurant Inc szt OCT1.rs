@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_SZ Star Restaurant Inc szt -1</name>
+   <name>div_SZ Star Restaurant Inc szt OCT1</name>
    <tag></tag>
-   <elementGuidId>f75dd500-8074-4f25-ad22-e75a94fc5896</elementGuidId>
+   <elementGuidId>38f68a11-aa8e-4413-ac64-d60f8ebeba0c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-result-label-38</value>
+      <value>select2-result-label-41</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,36 +46,30 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select2-result-label-38&quot;)</value>
+      <value>id(&quot;select2-result-label-41&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//div[@id='select2-result-label-38']</value>
+      <value>//div[@id='select2-result-label-41']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//ul[@id='select2-results-2']/li[18]/div</value>
+      <value>//ul[@id='select2-results-2']/li[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Same Taste Restaurant [ST-002]'])[2]/following::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rodriguez Tech [CRPrefund1]'])[2]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SZ'])[2]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[18]/div</value>
+      <value>//li[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

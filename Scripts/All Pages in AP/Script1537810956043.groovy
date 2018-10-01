@@ -27,6 +27,10 @@ WebUI.click(findTestObject('Object Repository/Page_Welcome Greeshma Staff - Acco
 
 WebUI.click(findTestObject('Page_Select Client - Payroll Relief/span_Enter client code or name'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_Select Client - Accounting Pow/span_Enter client code or name -2'))
+
+WebUI.click(findTestObject('Page_Select Client - Accounting Pow/div_KatalonQA KatalonQA -2'))
+
 Mobile.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Company > Setup'
@@ -150,6 +154,19 @@ WebUI.navigateToUrl('https://qa-app.accountingpower.com/Vendor/PaymentList')
 
 'Expenses > Process 1099'
 WebUI.navigateToUrl('https://qa-app.accountingpower.com/Utilities/Process1099s')
+
+WebUI.delay(0)
+
+'Inventory '
+WebUI.navigateToUrl('https://qa-app.accountingpower.com/Inventory/Adjustment')
+
+WebUI.navigateToUrl('https://qa-app.accountingpower.com/Inventory/Summary')
+
+WebUI.navigateToUrl('https://qa-app.accountingpower.com/Inventory/Setup')
+
+WebUI.navigateToUrl('https://qa-app.accountingpower.com/Inventory/Update')
+
+WebUI.navigateToUrl('https://qa-app.accountingpower.com/Inventory/Preferences')
 
 WebUI.delay(0)
 
@@ -417,5 +434,15 @@ WebUI.navigateToUrl('https://qa-app.accountingpower.com/Firm/Announcements')
 
 WebUI.delay(0)
 
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Notes - Accounting Power/Notes Icon'))
+
+WebUI.click(findTestObject('Page_Alerts - Accounting Power/Alert Icon'))
+
+WebUI.click(findTestObject('Page_Dashboard - Accounting Power/Dashboard Icon'))
+
+WebUI.click(findTestObject('Page_Notes - Accounting Power/Help Icon'))
+
+WebUI.click(findTestObject('Page_Notes - Accounting Power/Support Icon AP'))
+
+WebUI.click(findTestObject('Page_Notes - Accounting Power/Cloud Icon AP'))
 

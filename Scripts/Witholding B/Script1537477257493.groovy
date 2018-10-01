@@ -26,9 +26,7 @@ WebUI.click(findTestObject('Page_Enter verification code - Acco/Submit code butt
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome Greeshma Johnson - Acc/a_Payroll Relief'))
 
-WebUI.click(findTestObject('Page_Select Client - Payroll Relief/span_Enter client code or name'))
-
-WebUiBuiltInKeywords.click(findTestObject('Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt-3'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.clearText(findTestObject('Page_Select Client - Payroll Relief/span_Enter client code or name'))
 
 'Delay in order to load the client \r\n'
 WebUI.delay(10)
@@ -43,14 +41,20 @@ WebUI.selectOptionByIndex(findTestObject('Page_EmployeeContractor Setup - Pay/dr
 'Use this delay to confirm what you want to test initally --  CONFIRM  AMMOUNT '
 WebUI.delay(10)
 
-WebUI.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/Summary')
+WebUI.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/ListEntry')
 
+WebUI.click(findTestObject('Page_Payroll Entry - Payroll Relief/label_Current-1'))
+
+'select 5th index in drop down box'
+WebUI.selectOptionByIndex(findTestObject('Page_Payroll Entry - Payroll Relief/select_Select.Payroll Drop Down -1'), '5')
+
+'Review changes made from recalculation'
 WebUI.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/Review')
 
 WebUI.click(findTestObject('Page_Payroll Review - Payroll Relie/span_CTWilson Jessie-1'))
 
-'Delay in order to check over the number to create a baseline '
-WebUI.delay(11)
+'Page goes into approved section - CHANGE TO: Current & Service Weekly for next date'
+WebUI.delay(5)
 
 WebUI.navigateToUrl('https://qa-app.payrollrelief.com/Employee')
 
@@ -67,10 +71,7 @@ WebUI.click(findTestObject('Page_Payroll Entry - Payroll Relief/label_Current-1'
 WebUI.selectOptionByIndex(findTestObject('Page_Payroll Entry - Payroll Relief/select_Select.Payroll Drop Down -1'), '5')
 
 'Page goes into approved section - CHANGE TO: Current & Service Weekly for next date'
-WebUI.delay(5)
-
-'Re-calculation for deduction change'
-WebUI.click(findTestObject('Page_Payroll Entry - Payroll Relief/button_Calculate (2)'))
+WebUI.delay(2)
 
 'Review changes made from recalculation'
 WebUI.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/Review')

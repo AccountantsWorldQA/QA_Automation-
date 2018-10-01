@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa-login.accountantsoffice.com/login?firmCode=aworldqa')
+WebUI.navigateToUrl('https://dev-login.accountantsoffice.com/login?firmCode=Ultimate59&returnurl=https://dev.accountantsoffice.com/aocommon/account/login')
 
 WebUI.setText(findTestObject('Page_Log in - AccountantsOffice/input_UserName'), 'greeshmaj')
 
@@ -33,179 +33,225 @@ WebUI.click(findTestObject('Page_Welcome Greeshma Johnson - Acc/span_Payroll Rel
 
 WebUI.click(findTestObject('Page_Select Client - Payroll Relief/span_Enter client code or name'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc szt-2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc Uni'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(6)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/Contact')
+'Employer > Contact'
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/EmployerContact')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/TaxInfo')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/PaySchedules')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/PayTypes')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/TaxInfo')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/Deductions')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/EmployerPayTypes')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/Preferences')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/EmployerDeductions')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/Accounts')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/Preferences')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EmployerDepartment/Department')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/Accounts')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EmployerJob')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employer/Locations')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/PTODefaults')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EmployerDepartment/Department')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/Permissions')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EmployerDepartment/Classifications')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employer/EmployerSetupList')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EmployerDepartment/Groups')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/EmployerJob')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Employer/PTODefaults')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Employer/Permissions')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Employer/EmployerSetupList')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Employer/TrackActivity')
 
 WebUI.delay(2)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employee')
+'Employees '
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employee')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employee/List')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employee/List')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employee/Import')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employee/Import')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Employee/Warnings')
-
-WebUiBuiltInKeywords.delay(2)
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/BankInfo')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/Form8655')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/Taxes')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/Preferences')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/ACHTransactions')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/ACHDirectFile')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EServices/Recall')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Employee/Warnings')
 
 WebUiBuiltInKeywords.delay(2)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/ListEntry')
+'E- Services '
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/Status')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/Summary')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/BankInfo')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/PrintChecks')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/Form8655')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/Allocation')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/Taxes')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/PayrollRegister/Register')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/Preferences')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Payroll/EmployeePaychecks')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/ProcessingCharges')
 
-WebUiBuiltInKeywords.delay(2)
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EServices/ACHTransactions')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Compliance/PendingPayments')
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/EServices/ACHDirectFile')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Compliance/TaxForms')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Compliance/W2Forms')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Compliance/Form1099s')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Compliance/WageAdjustments')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Compliance/ComplianceOptions')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/ComplianceACA/ACAEmployer?year=0')
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/EServices/Recall')
 
 WebUiBuiltInKeywords.delay(2)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Report/PayrollRegister')
+'Payroll processing '
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Payroll/ListEntry')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Report/TaxLiabilitiesAndPayments')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Payroll/Summary')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Report/PayrollHistory')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Payroll/PrintChecks')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Report/EmployeeList')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Payroll/Allocation')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Report/PayrollSet?reportSetNumber=0')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/PayrollRegister/Register')
 
-WebUiBuiltInKeywords.delay(2)
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Integration/SmartLink')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Integration/ExportGLtoQBOnline')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Integration/ExportPayrollData')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Integration/SwipeClock')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Payroll/EmployeePaychecks')
 
 WebUiBuiltInKeywords.delay(2)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/TrainingVideos')
+'Compliance'
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Compliance/PendingPayments')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/SupportDocs')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Compliance/TaxForms')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EmploymentForms')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Compliance/W2Forms')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/FormsandPubs')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Compliance/Form1099s?year=2018')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/Links')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/AllocatedTips/AllocatedTips')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/Tools')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Compliance/WageAdjustments')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/Webinars')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Compliance/ComplianceOptions')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/Marketing')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Resources/FormsandPubs?samplereports=1')
-
-WebUiBuiltInKeywords.delay(2)
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/PayrollCenter')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/PayrollActivity/TodaysPayroll?finalized=True')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/ManageCompliance/Exceptions?clientId=-1')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/ACHApplication/GetACHApplicationDetails')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/Manage8655')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/TaskManager/GetTaskDetails')
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ComplianceACA/ACAEmployer?year=0')
 
 WebUiBuiltInKeywords.delay(2)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/ClientManagement')
+'Reports'
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Report/PayrollRegister')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/FirmOptions')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Report/TaxLiabilitiesAndPayments')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/EmailsSent/GetEmailsSent')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Report/PayrollHistory')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/Announcements')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Report/EmployeeList')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/Announcements')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Firm/ClientCharges')
-
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Batch/Emailing')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Report/PayrollSet?reportSetNumber=0')
 
 WebUiBuiltInKeywords.delay(2)
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Batch/Processing')
+'Integration '
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Integration/SmartLink')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Batch/ApprovePayrolls')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Integration/ExportGLtoQBOnline')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Batch/Printing')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Integration/workerscompexport#')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Batch/ArchiveForms')
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Integration/SwipeClock')
 
-WebUiBuiltInKeywords.navigateToUrl('https://qa-app.payrollrelief.com/Batch/ProcessW2s')
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Integration/PayrollAPIKeys')
 
 WebUiBuiltInKeywords.delay(2)
 
-WebUiBuiltInKeywords.click(findTestObject('Page_Notes - Payroll Relief/Help Icon'))
+'Resources '
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/TrainingVideos')
 
-WebUiBuiltInKeywords.click(findTestObject('Page_Notes - Payroll Relief/Notes Icon'))
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/SupportDocs')
 
-WebUiBuiltInKeywords.click(findTestObject('Page_Notes - Payroll Relief/Support Icon'))
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EmploymentForms')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/FormsandPubs')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/Links')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/Tools')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/Webinars')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/Marketing')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Resources/FormsandPubs?samplereports=1')
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/PayrollCenter')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/PayrollActivity/TodaysPayroll?finalized=True')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/Exceptions?clientId=-1')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/UnsuccessfulEfile')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/RejectedEfile')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/FutureDueForms')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/PastDueForms')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/ManageTaxes')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/ManageCompliance/FederalLookback')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/ACHApplication/GetACHApplicationDetails')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/Manage8655')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/TaskManager/GetTaskDetails')
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/SelectClient')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/ClientManagement')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/FirmOptions')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/EmailsSent/GetEmailsSent')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/Announcements')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/ClientActivity')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Firm/ClientCharges')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Batch/Emailing')
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Batch/Processing')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Batch/ApprovePayrolls')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Batch/Printing')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Batch/ArchiveForms')
+
+WebUiBuiltInKeywords.navigateToUrl('https://dev-app.payrollrelief.com/Batch/ProcessW2s')
+
+WebUI.navigateToUrl('https://dev-app.payrollrelief.com/Batch/Process1099s')
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Page_Select Client - Payroll Relief/Help PR'))
+
+WebUiBuiltInKeywords.click(findTestObject('Page_Dashboard - Payroll Relief/Select Client PR'))
+
+WebUiBuiltInKeywords.click(findTestObject('Page_Notes - Payroll Relief/Chat PR'))
+
+WebUI.click(findTestObject('Page_Notes - Payroll Relief/Notes PR'))
+
+WebUI.click(findTestObject('Page_Dashboard - Payroll Relief/Dashboard PR'))
 
 WebUI.closeBrowser()
 

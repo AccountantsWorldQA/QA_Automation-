@@ -29,14 +29,21 @@ import static org.apache.commons.lang3.StringUtils.join
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa-login.accountantsoffice.com/login?firmCode=aworldqa')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://dev-login.accountantsoffice.com/login?firmCode=Ultimate59&returnurl=https://dev.accountantsoffice.com/aocommon/account/login')
 
 WebUI.setText(findTestObject('Page_Log in - AccountantsOffice/input_UserName'), 'greeshmaj')
 
 WebUI.setEncryptedText(findTestObject('Page_Log in - AccountantsOffice/input_Password'), 'lb6CZRuikkT48jqepzyNUg==')
 
-'Clicks on the login button '
 WebUI.click(findTestObject('Page_Enter verification code - Acco/Submit code button -3'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Welcome Greeshma Johnson - Acc/span_Payroll Relief'))
+
+WebUI.click(findTestObject('Page_Select Client - Payroll Relief/span_Enter client code or name'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_Select Client - Payroll Relief/div_SZ Star Restaurant Inc Uni'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(6)
 

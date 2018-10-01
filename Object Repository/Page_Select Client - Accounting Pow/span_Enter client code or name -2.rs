@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Enter client code or name</name>
+   <name>span_Enter client code or name -2</name>
    <tag></tag>
-   <elementGuidId>7d123175-d9ad-4c06-a670-a1b692f0776c</elementGuidId>
+   <elementGuidId>06cc15a7-5e11-4543-b24b-6392e7e90ab8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -69,7 +69,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort clients by Processing date.'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorted Clients By Recently Accessed.'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
