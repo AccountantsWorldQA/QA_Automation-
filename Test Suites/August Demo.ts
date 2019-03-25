@@ -15,13 +15,13 @@
       <guid>5c8a9ac8-0964-4729-a057-82ec460f38d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/All Pages in PR</testCaseId>
+      <testCaseId>Test Cases/Payroll Relief/All Pages in PR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ce80514f-b9f3-4a5d-bc89-81a9dc565748</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Run Payroll</testCaseId>
+      <testCaseId>Test Cases/Payroll Relief/Run Payroll</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>393534ff-b616-4b12-9f15-3d2b89e251fc</guid>

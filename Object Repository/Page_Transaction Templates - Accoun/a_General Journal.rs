@@ -45,7 +45,7 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='mainNavigation']/ul/li[6]/ul/li[4]/a</value>
+      <value>//div[@id='mainNavigation']/ul/li[7]/ul/li[4]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,18 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <value>//a[contains(@href, '/Writeup/GJ')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//li[7]/ul/li[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='mainNavigation']/ul/li[6]/ul/li[4]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

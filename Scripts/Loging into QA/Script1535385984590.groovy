@@ -29,9 +29,7 @@ import static org.apache.commons.lang3.StringUtils.join
 
 WebUI.openBrowser('')
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://dev-login.accountantsoffice.com/login?firmCode=Ultimate59&returnurl=https://dev.accountantsoffice.com/aocommon/account/login')
+WebUI.navigateToUrl('https://qa-login.accountantsoffice.com/login?firmCode=aworldqa')
 
 WebUI.setText(findTestObject('Page_Log in - AccountantsOffice/input_UserName'), 'greeshmaj')
 
