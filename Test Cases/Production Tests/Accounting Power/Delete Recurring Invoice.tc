@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Recurring Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbe3d849-8ce4-47e6-9bf4-0e70cc7aa0d3</testCaseGuid>
+</TestCaseEntity>

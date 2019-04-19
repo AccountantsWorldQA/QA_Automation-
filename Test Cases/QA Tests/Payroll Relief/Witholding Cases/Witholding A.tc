@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>First witholding was removed.</description>
+   <name>Witholding A</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3486cc13-7e53-4672-ab1a-e14c2ddb1a37</testCaseGuid>
+</TestCaseEntity>

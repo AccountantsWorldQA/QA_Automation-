@@ -45,13 +45,35 @@ not_run: WebUI.click(findTestObject('Page_Contact - Payroll Relief/a_Setup Wizar
 
 not_run: WebUI.navigateToUrl('https://qa-app.payrollrelief.com/Employer/clientsetup')
 
+WebUI.click(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/div_First pay date_control-label col-sm-1 col-md-1 col-lg-1'))
+
+CustomKeywords.'com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate'(findTestObject('Agoda/calendar'), 4, 
+    10, 2019, 2000, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+CustomKeywords.'com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate'(findTestObject('Agoda/calendar'), 4, 
+    15, 2019, 2000, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(15)
+
+WebUI.click(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/input'))
+
+WebUI.click(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/a_10'))
+
+WebUI.click(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/a_19'))
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Client Setup - Payroll Relief/Federal EIN Number- 2018'))
+WebUI.click(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/Federal EIN Number- 2018'))
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/input__form-control input-vali'), '11-1245869')
 
-WebUI.click(findTestObject('Page_Client Setup - Payroll Relief/Employer State ID- 2018'))
+WebUI.click(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/Employer State ID- 2018'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Client Setup - Payroll Relief/input_Employer State ID_form-c_12'), 
     '11-2090934')
